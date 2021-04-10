@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+
+}
+
+.header {
+    height: 80px;
+    text-align: center;
+    background-color: rgb(2, 131, 236);
+}
+
+
+.content {
+    overflow: hidden;
+}
+
+.left_content {
+    background-color: brown;
+    height: 400px;
+    width: 30%;
+    float: left;
+
+}
+
+.right_content {
+    width: 70%;
+    background-color: rgb(49, 33, 196);
+    height: 400px;
+    float: left;
+}
+
+.footer {
+
+    background-color: rgb(196, 93, 33);
+    height: 80px;
+    z-index: 11;
+}
